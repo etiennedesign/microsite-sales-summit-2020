@@ -23,8 +23,6 @@ tab rotate
     font-size: 20px; }
   .speaker-shap {
     display: none; }
-  h2 {
-    line-height: 28px; }
   .ts-map .mapouter .gmap_canvas {
     width: 400px;
     height: 400px; }
@@ -102,7 +100,8 @@ tab device
       font-size: 48px;
       line-height: 56px; }
   .hero-area.centerd-item .banner-item .banner-content-wrap .banner-title {
-    font-size: 55px; }
+    font-size: 80px;
+    line-height: 90px; }
   .hero-area.centerd-item .countdown .counter-item {
     width: 90px;
     height: 90px; }
@@ -261,8 +260,6 @@ small device /mobile sm and large
     margin-bottom: 50px; }
   .btn {
     font-size: 14px; }
-  h2 {
-    line-height: 28px; }
   .pl-0 {
     padding-left: 15px !important; }
   .navbar-light .navbar-toggler-icon {
@@ -340,8 +337,8 @@ small device /mobile sm and large
     .hero-area.centerd-item .banner-item .banner-content-wrap {
       padding: 50px 0; }
       .hero-area.centerd-item .banner-item .banner-content-wrap .banner-title {
-        font-size: 38px;
-        line-height: 48px; }
+        font-size: 80px;
+        line-height: 90px; }
     .hero-area.centerd-item .banner-item .countdown {
       margin-bottom: 30px; }
   .main-slider .banner-item {
