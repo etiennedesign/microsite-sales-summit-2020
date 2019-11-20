@@ -975,7 +975,7 @@ img.pull-right {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
-  width: 80px;
+  width: 150px;
   height: 80px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2982,4 +2982,9 @@ h3.hero-subtitle {
 html,
 body {
   background: #000;
+}
+
+.video-label {
+  color:white;
+  padding-top: 10px;
 }
