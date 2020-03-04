@@ -8,7 +8,7 @@ tab rotate
   .banner-item .banner-content-wrap .banner-title {
     font-size: 60px; }
   .hero-area.centerd-item .banner-item {
-    min-height: 650px; }
+    min-height: auto; }
     .hero-area.centerd-item .banner-item:after {
       width: 500px;
       height: 500px; }
@@ -64,9 +64,9 @@ tab device
     width: auto;
     height: auto; }
   .header .navbar-light .navbar-toggler {
-    background: #e7015e;
+    background: #ed5153;
     color: #fff;
-    border-color: #e7015e; }
+    border-color: #ed5153; }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
     .header ul.navbar-nav > li > a i {
@@ -79,7 +79,7 @@ tab device
   .header-classic {
     padding: 10px 0; }
   .header-transparent .navbar-toggler {
-    background: #e7015e;
+    background: #ed5153;
     color: #fff; }
   .header-transparent .navbar-nav {
     background: #222;
@@ -95,7 +95,7 @@ tab device
   .banner-img {
     display: none; }
   .banner-item {
-    min-height: 700px; }
+    min-height: auto; }
     .banner-item .banner-content-wrap .banner-title {
       font-size: 48px;
       line-height: 56px; }
@@ -267,9 +267,9 @@ small device /mobile sm and large
   .header.header-transparent.nav-border .navbar {
     padding: 10px 0; }
   .header .navbar-light .navbar-toggler {
-    background: #e7015e;
+    background: #ed5153;
     color: #fff;
-    border-color: #e7015e; }
+    border-color: #ed5153; }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
     .header ul.navbar-nav > li > a i {
@@ -291,7 +291,7 @@ small device /mobile sm and large
   .navbar-brand img {
     max-width: 130px; }
   .header-transparent .navbar-toggler {
-    background: #e7015e;
+    background: #ed5153;
     color: #fff; }
   .header-transparent .navbar-nav {
     background: #222;
@@ -310,7 +310,7 @@ small device /mobile sm and large
   .banner-img {
     display: none; }
   .banner-item {
-    min-height: 550px; }
+    min-height: auto; }
     .banner-item .banner-content-wrap {
       padding: 180px 0 100px; }
       .banner-item .banner-content-wrap p.banner-info {
@@ -330,7 +330,7 @@ small device /mobile sm and large
         .banner-item .banner-content-wrap .banner-btn .btn.fill {
           margin-left: 0; }
   .hero-area.centerd-item .banner-item {
-    min-height: 650px; }
+    min-height: auto; }
     .hero-area.centerd-item .banner-item:after {
       width: 300px;
       height: 300px; }
@@ -342,7 +342,7 @@ small device /mobile sm and large
     .hero-area.centerd-item .banner-item .countdown {
       margin-bottom: 30px; }
   .main-slider .banner-item {
-    min-height: 800px; }
+    min-height: auto; }
     .main-slider .banner-item .banner-content-wrap p.banner-desc {
       padding: 0; }
     .main-slider .banner-item .banner-content-wrap h1.banner-title {

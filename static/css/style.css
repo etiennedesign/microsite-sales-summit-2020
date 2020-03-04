@@ -311,27 +311,12 @@ img.pull-right {
 .column-title {
   font-size: 36px;
   font-weight: 800;
-  color: #3b1d82;
+  color: #000;
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 85px;
   text-align: center; }
-  .section-title:after,
-  .column-title:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: '';
-    right: 0;
-    background-image: url(../images/shap/title.png);
-    background-repeat: no-repeat;
-    background-size: center center;
-    background-position: contain;
-    width: 70px;
-    height: 10px;
-    margin: auto auto 0;
-    top: auto;
-    bottom: 0; }
+
   .section-title span,
   .column-title span {
     display: block;
@@ -925,7 +910,7 @@ img.pull-right {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
-    background: #e7015e;
+    background: #ed5153;
     color: #fff;
     display: block;
     text-align: left;
@@ -2414,6 +2399,7 @@ img.pull-right {
 /* Contact
 ================================================== */
 .ts-contact .single-contact-feature {
+  height:100%;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 1px solid #eeeeee;
@@ -2976,11 +2962,6 @@ h3.hero-subtitle {
   color: white;
   padding-bottom: 20px;
   font-weight: 400;
-}
-
-html,
-body {
-  background: #000;
 }
 
 .video-label {
