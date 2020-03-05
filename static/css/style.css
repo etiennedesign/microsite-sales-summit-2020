@@ -550,8 +550,8 @@ img.pull-right {
   min-height: 850px;
   color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+
+  background-position: center top;
   -webkit-backface-visibility: hidden;
   position: relative; }
   .banner-item:before {
