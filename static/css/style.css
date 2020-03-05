@@ -2979,3 +2979,15 @@ h2.principles {
   margin-top:30px;
   color: #fff;
 }
+
+.text-center {
+  text-align:center;
+}
+
+.column-title {
+  padding-bottom:0;
+}
+
+.col-lg-12 {
+  padding-bottom: 60px;
+}
