@@ -479,6 +479,8 @@ img.pull-right {
     .header.header-transparent ul.navbar-nav > li > a {
       color: #fff;
       line-height: 72px; }
+      .header.header-transparent ul.navbar-nav > li > a:hover {
+        color: #ac9c63; }
   .header.header-transparent.nav-border {
     border-bottom: 1px solid #363d8a;
     padding: 10px 0; }
@@ -513,7 +515,7 @@ img.pull-right {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: rgba(22, 22, 22, 1);
+  background: #000;
   padding: 5px 0; }
   .header.sticky .navbar {
     padding: 0; }
@@ -622,17 +624,17 @@ img.pull-right {
       text-transform: uppercase;
       letter-spacing: 2.5px; }
     .countdown .counter-item:nth-of-type(1) i {
-      color: #ed5153; }
+      color: #ac9c63; }
     .countdown .counter-item:nth-of-type(2) i {
-      color: #ed5153;
+      color: #ac9c63;
       top: 2px;
       -webkit-transform: rotate(-148deg);
       -ms-transform: rotate(-148deg);
       transform: rotate(-148deg); }
     .countdown .counter-item:nth-of-type(3) i {
-      color: #ed5153; }
+      color: #ac9c63; }
     .countdown .counter-item:nth-of-type(4) i {
-      color: #ed5153; }
+      color: #ac9c63; }
 
 .ts-count-down {
   padding: 0;
@@ -666,7 +668,7 @@ img.pull-right {
         transform: translateY(-18%); }
 
 .hero-area.centerd-item .banner-item {
-  min-height: 770px;
+  min-height: auto;
   padding: 30px 0; }
 
   .hero-area.centerd-item .banner-item .banner-content-wrap {
@@ -1306,7 +1308,7 @@ img.pull-right {
   -ms-flex-direction: row;
   flex-direction: row; }
   .schedule-listing .schedule-slot-time {
-    background: #d20055;
+    background: #ffd100;
     color: #fff;
     padding: 60px 28px;
     font-size: 18px;
@@ -1344,9 +1346,9 @@ img.pull-right {
     .schedule-listing .schedule-slot-info p {
       margin-bottom: 0; }
   .schedule-listing:hover .schedule-slot-title {
-    color: #3b1d82; }
+    color: #00bf6f; }
   .schedule-listing:nth-of-type(even) .schedule-slot-time {
-    background: #e7015e; }
+    background: #009cde; }
   .schedule-listing.launce .schedule-slot-time {
     padding: 40px 28px; }
   .schedule-listing.launce .schedule-slot-title {
@@ -1408,7 +1410,7 @@ img.pull-right {
           height: 0;
           border-style: solid;
           border-width: 0 15px 15px 0;
-          border-color: transparent #e7015e transparent transparent;
+          border-color: transparent #00bf6f transparent transparent;
           position: absolute;
           left: 0;
           bottom: -15px;
@@ -1426,7 +1428,7 @@ img.pull-right {
           margin-bottom: 0;
           text-transform: capitalize; }
         .ts-schedule-nav ul li a.active {
-          background: #e7015e;
+          background: #00bf6f;
           color: #fff; }
           .ts-schedule-nav ul li a.active h3 {
             color: #fff; }
@@ -2977,7 +2979,7 @@ p.home-intro {
 
 h2.principles {
   margin-top:30px;
-  color: #fff;
+  color: #ac9c63;
 }
 
 .text-center {

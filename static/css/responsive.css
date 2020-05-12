@@ -64,9 +64,9 @@ tab device
     width: auto;
     height: auto; }
   .header .navbar-light .navbar-toggler {
-    background: #ed5153;
+    background: transparent;
     color: #fff;
-    border-color: #ed5153; }
+    outline:none !important; }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
     .header ul.navbar-nav > li > a i {
@@ -79,8 +79,9 @@ tab device
   .header-classic {
     padding: 10px 0; }
   .header-transparent .navbar-toggler {
-    background: #ed5153;
-    color: #fff; }
+    background: transparent;
+    color: #fff;
+    outline:none !important }
   .header-transparent .navbar-nav {
     background: #222;
     padding: 20px 0; }
@@ -267,9 +268,9 @@ small device /mobile sm and large
   .header.header-transparent.nav-border .navbar {
     padding: 10px 0; }
   .header .navbar-light .navbar-toggler {
-    background: #ed5153;
+    background: transparent;
     color: #fff;
-    border-color: #ed5153; }
+    outline:none !important }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
     .header ul.navbar-nav > li > a i {
@@ -292,7 +293,8 @@ small device /mobile sm and large
     max-width: 130px; }
   .header-transparent .navbar-toggler {
     background: #ed5153;
-    color: #fff; }
+    color: #fff;
+    outline:none !important; }
   .header-transparent .navbar-nav {
     background: #222;
     padding: 20px 0; }
