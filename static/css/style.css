@@ -516,6 +516,7 @@ img.pull-right {
   width: 100%;
   z-index: 99;
   background: #fff;
+  border-bottom: 1px solid #f1f0f6;
   padding: 5px 0; }
   .header.sticky .navbar {
     padding: 0; }
