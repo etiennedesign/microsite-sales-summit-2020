@@ -477,10 +477,10 @@ img.pull-right {
     position: relative;
     top: 5px; }
     .header.header-transparent ul.navbar-nav > li > a {
-      color: #fff;
+      color: #000;
       line-height: 72px; }
       .header.header-transparent ul.navbar-nav > li > a:hover {
-        color: #ac9c63; }
+        color: #00bf6f; }
   .header.header-transparent.nav-border {
     border-bottom: 1px solid #363d8a;
     padding: 10px 0; }
@@ -515,7 +515,7 @@ img.pull-right {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: #000;
+  background: #fff;
   padding: 5px 0; }
   .header.sticky .navbar {
     padding: 0; }
@@ -572,11 +572,11 @@ img.pull-right {
       font-weight: normal;
       line-height: 24px;
       margin-bottom: 30px;
-      color: #fff; }
+      color: #000; }
     .banner-item .banner-content-wrap .banner-title {
       font-size: 64px;
       font-weight: 600;
-      color: #fff;
+      color: #000;
       text-transform: uppercase;
       line-height: 74px;
       margin-bottom: 50px; }
@@ -600,7 +600,7 @@ img.pull-right {
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     text-align: center;
-    color: #fff;
+    color: #000;
     margin-right: 18px;
     padding: 35px 0;
     position: relative; }
@@ -624,17 +624,17 @@ img.pull-right {
       text-transform: uppercase;
       letter-spacing: 2.5px; }
     .countdown .counter-item:nth-of-type(1) i {
-      color: #ac9c63; }
+      color: #00bf6f; }
     .countdown .counter-item:nth-of-type(2) i {
-      color: #ac9c63;
+      color: #ffd100;
       top: 2px;
       -webkit-transform: rotate(-148deg);
       -ms-transform: rotate(-148deg);
       transform: rotate(-148deg); }
     .countdown .counter-item:nth-of-type(3) i {
-      color: #ac9c63; }
+      color: #ed5253; }
     .countdown .counter-item:nth-of-type(4) i {
-      color: #ac9c63; }
+      color: #009cde; }
 
 .ts-count-down {
   padding: 0;
@@ -1346,9 +1346,9 @@ img.pull-right {
     .schedule-listing .schedule-slot-info p {
       margin-bottom: 0; }
   .schedule-listing:hover .schedule-slot-title {
-    color: #00bf6f; }
+    color: #000; }
   .schedule-listing:nth-of-type(even) .schedule-slot-time {
-    background: #ffd100; }
+    background: #00a5eb; }
   .schedule-listing.launce .schedule-slot-time {
     padding: 40px 28px; }
   .schedule-listing.launce .schedule-slot-title {
@@ -2961,7 +2961,7 @@ faq-item
 ================================================== */
 
 h3.hero-subtitle {
-  color: white;
+  color: #000;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -2974,12 +2974,12 @@ h3.hero-subtitle {
 p.home-intro {
   text-align: justify;
   margin-bottom:60px;
-  color:#fff;
+  color:#000;
 }
 
 h2.principles {
   margin-top:30px;
-  color: #ac9c63;
+  color: #000;
 }
 
 .text-center {
@@ -2992,4 +2992,18 @@ h2.principles {
 
 .col-lg-12 {
   padding-bottom: 60px;
+}
+
+section.ts-schedule{
+  padding-top:0
+}
+
+#agenda .banner-content-wrap {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 767px){
+.hero-area.centerd-item .banner-item .banner-content-wrap {
+    padding: 100px 0 20px 0 !important;
+}
 }

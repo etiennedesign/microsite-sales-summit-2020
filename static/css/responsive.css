@@ -65,7 +65,7 @@ tab device
     height: auto; }
   .header .navbar-light .navbar-toggler {
     background: transparent;
-    color: #fff;
+    color: #000;
     outline:none !important; }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
@@ -269,7 +269,7 @@ small device /mobile sm and large
     padding: 10px 0; }
   .header .navbar-light .navbar-toggler {
     background: transparent;
-    color: #fff;
+    color: #000;
     outline:none !important }
   .header ul.navbar-nav > li > a {
     line-height: 40px !important; }
@@ -296,7 +296,7 @@ small device /mobile sm and large
     color: #fff;
     outline:none !important; }
   .header-transparent .navbar-nav {
-    background: #222;
+    background: #f1f0f6;
     padding: 20px 0; }
   .header-transparent .dropdown-menu {
     background: transparent;
