@@ -3008,3 +3008,7 @@ section.ts-schedule{
     padding: 100px 0 20px 0 !important;
 }
 }
+
+.schedule-slot-info a:hover {
+  text-decoration: underline;
+}
