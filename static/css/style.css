@@ -3012,3 +3012,7 @@ section.ts-schedule{
 .schedule-slot-info a:hover {
   text-decoration: underline;
 }
+
+.name-speaker {
+  color:#000;
+}
