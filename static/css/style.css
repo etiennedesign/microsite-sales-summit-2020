@@ -3010,6 +3010,13 @@ section.ts-schedule{
 }
 }
 
+@media (max-width: 990px){
+  .anim-summit {
+    width: 100%;
+    height: auto;;
+  }
+}
+
 .schedule-slot-info a:hover {
   text-decoration: underline;
 }
